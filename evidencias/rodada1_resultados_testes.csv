@@ -1,0 +1,20 @@
+﻿id;tipo;limitacao;pergunta;resposta_esperada;status_esperado;ids_esperados;resposta_obtida;correto;motivo_falha;tempo_ms;tempo_primeira_execucao_ms
+T01;direta;False;Como faço minha carteira de trabalho?;Orientação sobre a Carteira de Trabalho Digital (EMP-01), com fonte e data.;ok;EMP-01;ok: EMP-01;True;;0.381;0.497
+T02;direta;False;Onde posso encontrar cursos gratuitos?;Orientação sobre cursos gratuitos (FAC-03), avisando que está pendente de validação.;ok;FAC-03;ok: FAC-03;True;;0.554;0.559
+T03;direta;False;Quais documentos preciso para tirar meu título de eleitor?;Documentos e etapas do primeiro título de eleitor (DOC-01).;ok;DOC-01;ok: DOC-01;True;;0.458;0.475
+T04;direta;False;Como funciona o cadastro no SUS?;Explicação do Meu SUS Digital (SAU-01).;ok;SAU-01;ok: SAU-01;True;;0.348;0.382
+T05;direta;False;Quero começar a morar sozinho. Por onde começo?;Orientação inicial sobre aluguel (MOR-01), pendente de validação.;ok;MOR-01;ok: MOR-01;True;;0.484;0.52
+T06;escrita diferente;False;como saco o dinheiro do fundo de garantia quando saio da empresa;Explicação do FGTS e do saque (EMP-02).;ok;EMP-02;ok: EMP-02;True;;0.461;0.477
+T07;escrita diferente;False;to com 18 anos e sou homem, preciso me alistar?;Regras do alistamento militar (DIR-01).;ok;DIR-01;ok: DIR-01;True;;0.321;0.338
+T08;sinônimo;False;Como tiro minha carta de motorista?;Primeira habilitação pelo aplicativo CNH do Brasil (TRA-01).;ok;TRA-01;ok: TRA-01;True;;0.582;0.611
+T09;sinônimo;False;Quanto o microempreendedor paga de imposto por mês?;Valores do DAS e obrigações do MEI (IMP-02).;ok;IMP-02;ok: IMP-02;True;;0.293;0.313
+T10;sinônimo;False;Posso ver minhas vacinas pelo celular?;Carteira de vacinação digital no Meu SUS Digital (SAU-02).;ok;SAU-02;ok: SAU-02;True;;0.295;0.3
+T11;mais de uma categoria;False;Quero abrir um MEI e também saber se preciso declarar imposto de renda;Dois assuntos: abrir MEI (IMP-01) e Imposto de Renda (IMP-03).;multipla;IMP-01,IMP-03;multipla: IMP-03, IMP-01;True;;0.612;0.65
+T12;pendente de validação;False;Como funciona o Pix?;Resposta curta sobre o Pix (FIN-03) marcada como pendente de validação.;ok;FIN-03;ok: FIN-03;True;;0.239;0.278
+T13;ambígua;True;carteira;Pedir para o usuário escolher entre carteira de trabalho, de motorista, de identidade e de vacinação.;ambigua;EMP-01,TRA-01,DOC-04,SAU-02;ambigua: opções DOC-04, EMP-01, SAU-02, TRA-01;True;;0.156;0.199
+T14;fora do escopo;True;Qual a previsão do tempo para amanhã?;Dizer que não há resposta confiável na base, sem inventar.;sem_resultado;;sem_resultado;True;;0.252;0.277
+T15;fora do escopo;False;Quem ganhou o jogo do Corinthians ontem?;Dizer que não há resposta confiável na base, sem inventar.;sem_resultado;;sem_resultado;True;;0.277;0.289
+T16;sem cobertura na base;True;Como abrir uma conta bancária?;A base não tem um registro sobre abrir conta: o assistente não deve responder com segurança usando outro assunto.;sem_resultado;;ok: FIN-01;False;status obtido 'ok' em vez de 'sem_resultado';0.543;0.613
+T17;vazia;True;;Pedir que o usuário digite uma pergunta.;vazia;;vazia;True;;0.0;0.003
+T18;vazia;False;     ;Pedir que o usuário digite uma pergunta.;vazia;;vazia;True;;0.0;0.001
+T19;inválida;False;?!?! #$%;Explicar que não entendeu e dar um exemplo.;invalida;;invalida;True;;0.002;0.005

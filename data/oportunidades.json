@@ -1,0 +1,47 @@
+{
+  "observacao": "Cada oportunidade aponta para um conhecimento (conhecimento_id). Fonte, link e data de verificação vêm desse conhecimento. 'status' descreve a situação conhecida; nunca marque como aberta uma inscrição que não foi conferida.",
+  "oportunidades": [
+    {
+      "titulo": "Vagas e cadastro de trabalhador (Sine / Emprega Brasil)",
+      "tipo": "Emprego",
+      "descricao": "Serviço gratuito de intermediação de mão de obra, on-line ou presencial.",
+      "status": "Serviço disponível. As vagas mudam: consulte o portal.",
+      "conhecimento_id": "EMP-03"
+    },
+    {
+      "titulo": "Curso teórico gratuito para a primeira habilitação",
+      "tipo": "Curso gratuito",
+      "descricao": "Curso online, integrado ao gov.br, dentro do aplicativo CNH do Brasil.",
+      "status": "Descrito na fonte oficial. Confirme no aplicativo.",
+      "conhecimento_id": "TRA-02"
+    },
+    {
+      "titulo": "Enem",
+      "tipo": "Educação",
+      "descricao": "Exame que dá acesso a programas de ensino superior. Há isenção da taxa em alguns casos.",
+      "status": "Inscrição de 2026 ENCERRADA. Acompanhe o edital da próxima edição.",
+      "conhecimento_id": "FAC-01"
+    },
+    {
+      "titulo": "Cadastro Único para programas sociais",
+      "tipo": "Programa público",
+      "descricao": "Porta de entrada para programas sociais; inscrição gratuita e presencial.",
+      "status": "Serviço disponível. A participação nos programas depende de critérios de renda.",
+      "conhecimento_id": "SAU-04"
+    },
+    {
+      "titulo": "Sisu, ProUni e Fies",
+      "tipo": "Bolsa de estudo",
+      "descricao": "Programas do MEC de acesso ao ensino superior.",
+      "status": "PENDENTE DE VALIDAÇÃO. Não há data de inscrição confirmada: consulte o portal oficial.",
+      "conhecimento_id": "FAC-02"
+    },
+    {
+      "titulo": "Pronatec - cursos técnicos e de qualificação",
+      "tipo": "Curso gratuito",
+      "descricao": "Programa do MEC de ensino técnico e qualificação profissional.",
+      "status": "PENDENTE DE VALIDAÇÃO. Vagas e inscrições não foram conferidas.",
+      "conhecimento_id": "FAC-03"
+    }
+  ]
+}

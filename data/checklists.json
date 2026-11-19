@@ -1,0 +1,54 @@
+{
+  "observacao": "Modelos de checklist. Cada usuário recebe uma cópia própria no banco. 'conhecimento_id' (opcional) liga a tarefa a um assunto da base.",
+  "modelos": [
+    {
+      "id": "primeiros-passos-18",
+      "titulo": "Primeiros passos após completar 18 anos",
+      "tarefas": [
+        {"descricao": "Conferir meu CPF e emitir o comprovante", "conhecimento_id": "DOC-03"},
+        {"descricao": "Criar ou conferir minha conta gov.br", "conhecimento_id": null},
+        {"descricao": "Tirar ou regularizar o título de eleitor", "conhecimento_id": "DOC-01"},
+        {"descricao": "Se for homem: fazer o alistamento militar no prazo", "conhecimento_id": "DIR-01"},
+        {"descricao": "Instalar a Carteira de Trabalho Digital", "conhecimento_id": "EMP-01"},
+        {"descricao": "Acessar o Meu SUS Digital", "conhecimento_id": "SAU-01"},
+        {"descricao": "Consultar em quais bancos tenho conta (Registrato)", "conhecimento_id": "FIN-01"},
+        {"descricao": "Ler sobre meus direitos como consumidor", "conhecimento_id": "DIR-03"}
+      ]
+    },
+    {
+      "id": "primeiro-emprego",
+      "titulo": "Preparação para o primeiro emprego",
+      "tarefas": [
+        {"descricao": "Ter o CPF em mãos", "conhecimento_id": "DOC-02"},
+        {"descricao": "Instalar a Carteira de Trabalho Digital", "conhecimento_id": "EMP-01"},
+        {"descricao": "Montar um currículo simples", "conhecimento_id": null},
+        {"descricao": "Cadastrar-me no Sine / Emprega Brasil", "conhecimento_id": "EMP-03"},
+        {"descricao": "Entender o que é o FGTS", "conhecimento_id": "EMP-02"},
+        {"descricao": "Entender quem precisa declarar Imposto de Renda", "conhecimento_id": "IMP-03"}
+      ]
+    },
+    {
+      "id": "morar-sozinho",
+      "titulo": "Organização para começar a morar sozinho",
+      "tarefas": [
+        {"descricao": "Calcular quanto posso gastar por mês com moradia", "conhecimento_id": null},
+        {"descricao": "Ler sobre a Lei do Inquilinato", "conhecimento_id": "MOR-01"},
+        {"descricao": "Entender as garantias de aluguel (caução, fiador, seguro)", "conhecimento_id": "MOR-02"},
+        {"descricao": "Entender a devolução do imóvel antes do prazo", "conhecimento_id": "MOR-03"},
+        {"descricao": "Guardar uma cópia do contrato e dos comprovantes", "conhecimento_id": null},
+        {"descricao": "Saber como reclamar de uma empresa se houver problema", "conhecimento_id": "FIN-02"}
+      ]
+    },
+    {
+      "id": "faculdade",
+      "titulo": "Planejamento para iniciar uma faculdade",
+      "tarefas": [
+        {"descricao": "Acompanhar o edital do próximo Enem", "conhecimento_id": "FAC-01"},
+        {"descricao": "Conhecer Sisu, ProUni e Fies", "conhecimento_id": "FAC-02"},
+        {"descricao": "Ver opções de cursos técnicos e de qualificação", "conhecimento_id": "FAC-03"},
+        {"descricao": "Separar meus documentos pessoais", "conhecimento_id": "DOC-04"},
+        {"descricao": "Ver as regras do passe estudantil", "conhecimento_id": "TRA-03"}
+      ]
+    }
+  ]
+}

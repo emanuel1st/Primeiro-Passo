@@ -1,0 +1,125 @@
+{
+  "observacao": "Cada grupo reúne termos equivalentes. Se um termo do grupo aparece na pergunta, os outros passam a valer como sinônimos na busca (com peso menor). Editável sem mexer no código.",
+  "grupos": [
+    [
+      "cnh",
+      "habilitacao",
+      "carteira de motorista",
+      "carta de motorista",
+      "permissao para dirigir"
+    ],
+    [
+      "ctps",
+      "carteira de trabalho",
+      "carteira de trabalho digital"
+    ],
+    [
+      "titulo de eleitor",
+      "titulo eleitoral",
+      "alistamento eleitoral"
+    ],
+    [
+      "emprego",
+      "vaga de emprego",
+      "procurar emprego",
+      "buscar emprego",
+      "primeiro emprego"
+    ],
+    [
+      "aluguel",
+      "alugar",
+      "locacao",
+      "inquilino"
+    ],
+    [
+      "morar sozinho",
+      "sair da casa dos pais",
+      "primeiro apartamento",
+      "morar fora"
+    ],
+    [
+      "faculdade",
+      "universidade",
+      "ensino superior",
+      "graduacao"
+    ],
+    [
+      "bolsa de estudo",
+      "prouni",
+      "fies",
+      "sisu"
+    ],
+    [
+      "gratis",
+      "gratuito",
+      "de graca",
+      "sem custo"
+    ],
+    [
+      "imposto de renda",
+      "irpf",
+      "declaracao de ajuste anual"
+    ],
+    [
+      "sus",
+      "sistema unico de saude",
+      "posto de saude"
+    ],
+    [
+      "carteira de vacinacao",
+      "caderneta de vacinacao",
+      "cartao de vacina",
+      "comprovante de vacina"
+    ],
+    [
+      "mei",
+      "microempreendedor individual"
+    ],
+    [
+      "cpf",
+      "cadastro de pessoa fisica"
+    ],
+    [
+      "rg",
+      "identidade",
+      "carteira de identidade",
+      "cin"
+    ],
+    [
+      "servico militar",
+      "alistamento militar",
+      "exercito",
+      "reservista",
+      "junta militar"
+    ],
+    [
+      "reclamar",
+      "reclamacao",
+      "queixa"
+    ],
+    [
+      "fgts",
+      "fundo de garantia"
+    ],
+    [
+      "pix",
+      "pagamento instantaneo"
+    ],
+    [
+      "fiador",
+      "fianca",
+      "garantia de aluguel",
+      "caucao"
+    ],
+    [
+      "quebrar contrato",
+      "rescisao",
+      "sair antes do contrato"
+    ],
+    [
+      "votar",
+      "voto",
+      "eleicao"
+    ]
+  ]
+}

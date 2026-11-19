@@ -1,0 +1,182 @@
+{
+  "categorias": [
+    {
+      "id": "emprego",
+      "nome": "Primeiro emprego e direitos trabalhistas",
+      "descricao": "Carteira de trabalho, FGTS e como buscar vagas.",
+      "icone": "💼"
+    },
+    {
+      "id": "financas",
+      "nome": "Finanças e serviços bancários",
+      "descricao": "Contas em bancos, Pix e como reclamar de empresas.",
+      "icone": "💳"
+    },
+    {
+      "id": "transporte",
+      "nome": "Transporte e mobilidade",
+      "descricao": "Habilitação (CNH) e passe estudantil.",
+      "icone": "🚌"
+    },
+    {
+      "id": "moradia",
+      "nome": "Moradia, aluguel e independência",
+      "descricao": "Primeiros cuidados ao alugar um imóvel.",
+      "icone": "🏠"
+    },
+    {
+      "id": "saude",
+      "nome": "Saúde e serviços públicos",
+      "descricao": "Meu SUS Digital, Cartão SUS e Cadastro Único.",
+      "icone": "🩺"
+    },
+    {
+      "id": "faculdade",
+      "nome": "Faculdade, cursos e bolsas",
+      "descricao": "Enem, Sisu/ProUni/Fies e cursos técnicos.",
+      "icone": "🎓"
+    },
+    {
+      "id": "documentos",
+      "nome": "Documentação e identidade",
+      "descricao": "CPF, título de eleitor e identidade.",
+      "icone": "🪪"
+    },
+    {
+      "id": "impostos",
+      "nome": "Impostos, MEI e empreendedorismo",
+      "descricao": "Abrir MEI, obrigações e Imposto de Renda.",
+      "icone": "🧾"
+    },
+    {
+      "id": "direitos",
+      "nome": "Direitos e deveres do cidadão",
+      "descricao": "Alistamento militar, voto e direitos do consumidor.",
+      "icone": "⚖️"
+    }
+  ],
+  "roteiro_18_anos": {
+    "titulo": "Completei 18 anos. E agora?",
+    "descricao": "Um roteiro de primeiros passos. Siga a ordem ou escolha o que faz mais sentido para você.",
+    "passos": [
+      {
+        "ordem": 1,
+        "titulo": "Confira ou faça sua inscrição no CPF",
+        "conhecimento_id": "DOC-02",
+        "observacao": "O CPF é pedido em quase todos os outros serviços."
+      },
+      {
+        "ordem": 2,
+        "titulo": "Tire (ou regularize) o título de eleitor",
+        "conhecimento_id": "DOC-01",
+        "observacao": "O voto é obrigatório para alfabetizados de 18 a 70 anos."
+      },
+      {
+        "ordem": 3,
+        "titulo": "Homens: faça o alistamento militar",
+        "conhecimento_id": "DIR-01",
+        "observacao": "A página oficial indica o prazo de 1º de janeiro a 30 de junho do ano em que se completa 18 anos."
+      },
+      {
+        "ordem": 4,
+        "titulo": "Veja a Carteira de Trabalho Digital",
+        "conhecimento_id": "EMP-01",
+        "observacao": "Reúne seus vínculos de trabalho em um só lugar."
+      },
+      {
+        "ordem": 5,
+        "titulo": "Cadastre-se para buscar vagas",
+        "conhecimento_id": "EMP-03",
+        "observacao": "O Sine é gratuito."
+      },
+      {
+        "ordem": 6,
+        "titulo": "Acesse o Meu SUS Digital",
+        "conhecimento_id": "SAU-01",
+        "observacao": "Login com a conta gov.br."
+      },
+      {
+        "ordem": 7,
+        "titulo": "Conheça seus direitos como consumidor",
+        "conhecimento_id": "DIR-03",
+        "observacao": "Vale para compras, contratos e serviços."
+      },
+      {
+        "ordem": 8,
+        "titulo": "Se quiser dirigir, entenda a primeira habilitação",
+        "conhecimento_id": "TRA-01",
+        "observacao": "Parte do processo é pelo aplicativo CNH do Brasil."
+      }
+    ]
+  },
+  "trilhas": [
+    {
+      "id": "trilha-emprego",
+      "titulo": "Primeiro emprego",
+      "passos": [
+        "EMP-03",
+        "EMP-01",
+        "EMP-02",
+        "IMP-03"
+      ]
+    },
+    {
+      "id": "trilha-documentos",
+      "titulo": "Documentos básicos",
+      "passos": [
+        "DOC-02",
+        "DOC-03",
+        "DOC-04",
+        "DOC-01",
+        "DIR-02"
+      ]
+    },
+    {
+      "id": "trilha-moradia",
+      "titulo": "Morar sozinho",
+      "passos": [
+        "MOR-01",
+        "MOR-02",
+        "MOR-03",
+        "FIN-02"
+      ]
+    },
+    {
+      "id": "trilha-faculdade",
+      "titulo": "Faculdade e cursos",
+      "passos": [
+        "FAC-01",
+        "FAC-02",
+        "FAC-03",
+        "TRA-03"
+      ]
+    },
+    {
+      "id": "trilha-empreender",
+      "titulo": "Empreender",
+      "passos": [
+        "IMP-01",
+        "IMP-02",
+        "IMP-03"
+      ]
+    },
+    {
+      "id": "trilha-habilitacao",
+      "titulo": "Habilitação",
+      "passos": [
+        "TRA-01",
+        "TRA-02"
+      ]
+    },
+    {
+      "id": "trilha-saude",
+      "titulo": "Saúde pública",
+      "passos": [
+        "SAU-03",
+        "SAU-01",
+        "SAU-02",
+        "SAU-04"
+      ]
+    }
+  ]
+}
